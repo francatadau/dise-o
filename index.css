@@ -1,0 +1,106 @@
+body {
+ font-family: "Arial";
+}
+
+#logo {
+  float: left;
+  width: 10%;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+
+#banner {
+height: 300px;
+margin-top: 10px;
+border: solid 1px black;
+}
+
+.menu {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 250px;
+}
+
+#frase {
+  text-align: center;
+  font-family: "Arial";
+  text-decoration: underline;
+}
+
+.menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: black;
+
+}
+
+.menu ul li {
+  float: left;
+  width: 180px;
+  height: 40px;
+  background-color: black;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.menu ul li a:hover {
+  background-color: #FF2B1F;
+}
+
+.menu ul li ul li {
+  display: none;
+}
+
+.menu ul li:hover ul li {
+  display: block;
+}
+
+
+.footer{
+  height: 160px;
+  background-color: rgb(162, 166, 165);
+}
+
+.mapa {
+  float: right;
+  margin-right: 5px;
+  margin-top: -67px;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter-square {
+  color: black;
+}
+
+.fa-instagram {
+  padding-left: 85px;
+}
+
+.fa-instagram:hover {
+    color: red;
+}
+
+.fa-facebook:hover {
+    color: red;
+}
+
+.fa-twitter-square:hover {
+    color: red;
+}
+
+
+
+.texto {
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}

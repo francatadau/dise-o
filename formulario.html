@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="contacto.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- En el header ponemos el logo, el banner y el menu, que van a la parte superior de la página -->
+  <header>
+  <!-- Link para el logo -->
+  <a href="index.html"><img src="imagenes/sinfondo.png" id="logo"></a>
+  <nav class="menu">
+    <ul>
+      <li><a href="venta.html">Venta</a></li>
+      <li><a href="alquiler.html">Alquiler</a></li>
+      <li><a href="taller.html">Taller</a></li>
+      <li><a href="formulario.html">Contacto</a></li>
+      <li><a href="#">Idioma</a>
+        <ul>
+          <li> <a href="index.html">Castellano</a> </li>
+          <li> <a href="indexvlc.html">Valenciano</a> </li>
+        </ul>
+        </li>
+      </ul>
+  </nav>
+    </header>
+    <body>
+        <br>
+        <div class="fondoFormulario">
+          <form class="formulario" action="index.html" method="post">
+                  <b>Nombre:<br><input type="text" name="nombre" value=""><br><br></b>
+                  <b>Apellidos:<br><input type="text" name="apellidos" value=""><br><br></b>
+                  <b>Email:<br><input type="text" name="email" value=""><br><br></b>
+                  <b>Telefono:<br><input type="text" name="telefono" value=""><br><br><br></b>
+                  <b>Descripción:<br><br><textarea name="descripcion" rows="8" cols="80" placeholder="Escriba una breve descripcion..."></textarea> <br><br></b>
+                  <br><br>
+                  <input type="submit" name="Enviar" value="Enviar">
+              </form>
+        </div>
+
+          <br><br>
+          <div class="footer">
+          <hr>
+          <footer>
+            <p>Siguenos en nuestras redes sociales:</p>
+              <a href="#" id="insta"> <i class="fab fa-instagram fa-2x"></i></a>
+              <a href="#" id="facebook"> <i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#" id="twitter"> <i class="fab fa-twitter-square fa-2x"></i></a>
+            <div class="mapa">
+            <h3>Estamos aquí:</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.954005054!2d-0.4149155850177369!3d39.40254662461513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604e82a8672a35%3A0xed578f5f80fed685!2sFlorida+Universitaria!5e0!3m2!1ses!2ses!4v1543399086588"
+            width="200" height="115" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+            </div>
+          </footer>
+        </div>
+    </body>
+</html>
