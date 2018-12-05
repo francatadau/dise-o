@@ -98,30 +98,13 @@ border: solid 1px black;
 .imagen {
   text-align: center;
   margin-top: 100px;
-  padding: 10px;
-  padding-left: 0px;
-  /* margin-right: 50px; */
   margin-right: 50px;
   float: left;
 }
 
-.segundaColumna {
-  padding: 10px;
-  padding-left: 130px;
-  float: left;
-  text-align: center;
-}
-
-
 .footer{
   height: 160px;
   background-color: rgb(162, 166, 165);
-  margin-top: 800px;
+  margin-top: 550px;
 
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  text-decoration: underline;
 }
